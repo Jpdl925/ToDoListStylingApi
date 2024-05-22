@@ -1,3 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:200,300,regular,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic);
+
+
 body{
     background-color: gray;
 }
@@ -6,6 +10,7 @@ body{
     font-size: 100px;
     text-align: center;
     margin-top: 1%;
+    font-family: Oswald;
 }
 .checked{
     text-decoration: line-through;
@@ -24,8 +29,24 @@ body{
     height: 50px;
 }
 ul{
+    font-family: Playfair;
     position: relative;
     left: 41%;
     margin-top: 1%;
     font-size: large;
 }
+.item{
+    display: flex;
+    justify-content: center;
+    margin-top:35px;
+    background-color: gray;
+    width: 200px;
+}
+.item li{
+    display: flex;
+    margin-inline: 15px;
+}
+.deleteBtn{
+    margin-left: 20px;
+}
+

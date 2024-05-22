@@ -69,7 +69,7 @@ const Todo = () => {
             <li className={item.style} key={item.id}>
               {item.todo}
               <div contentEditable="false">
-                <button onClick={() => handleDelete(item.id)}>x</button>
+                <button className={styles.deleteBtn} onClick={() => handleDelete(item.id)}>x</button>
               </div>
             </li>
           </div>
